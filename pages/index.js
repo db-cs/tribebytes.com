@@ -1,4 +1,4 @@
-import Header from "../components/Page";
+import Header from "../components/Header";
 
 export default function About() {
   return (
@@ -25,7 +25,7 @@ export default function About() {
             </a>
             .
           </p>
-          <img src="/Classroom.png"></img>
+          <img alt="Classroom Image" src="/Classroom.png" />
         </div>
       </div>
     </body>
