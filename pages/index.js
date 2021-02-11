@@ -4,8 +4,8 @@ export default function About() {
   return (
     <body class="bg-gradient-to-r from-red-800 via-gray-800 to-black">
       <Header />
-      <div class="bg-red-900 place-content-center max-w-6xl px-20 mx-auto h-screen">
-        <h1 class="text-center pt-10 text-6xl text-white">
+      <div class="bg-red-900 place-content-center max-w-6xl px-20 mx-auto h-screen bg-opacity-50">
+        <h1 class="text-center pb-10 pt-5 text-6xl text-white">
           Welcome to TribeBytes!
         </h1>
         <div class="flex">
@@ -18,7 +18,7 @@ export default function About() {
             to know them better. Please reach out if you have any questions or
             ideas:{" "}
             <a
-              class="text-blue-500 underline hover:text-blue-600"
+              class="text-blue-500 underline hover:text-blue-600 outline-none transition-all duration-700 ease-in-out focus:shadow-outline hover:w-64 hover:w-64 absolute"
               href="mailto:dbailey@k12k.com"
             >
               dbailey@k12k.com

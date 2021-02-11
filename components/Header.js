@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Router from "next/router";
-import handleClick from "./activeLink";
+import ActiveLink from "./activeLink";
+import Nav from "./Nav";
+
 const Header = () => {
-  // <body background="https://i.pinimg.com/originals/4a/aa/a3/4aaaa35e178c1cc7c300c53556077d63.jpg">
   return (
-    <head>
+    <header>
       <title>TribeBytes</title>
       <nav class="bg-white place-content-center max-w-6xl px-20 mx-auto py-1 mt-12 bg-fixed">
         <div class="flex sm:items-center m-8 mx-auto justify-between ">
@@ -14,9 +15,10 @@ const Header = () => {
           >
             <img src="/Logo.png" height="150" width="150"></img>
           </div>
+          <Nav />
         </div>
       </nav>
-    </head>
+    </header>
   );
 };
 export default Header;
