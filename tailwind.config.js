@@ -5,7 +5,19 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      primary: {
+        white: "#fff",
+        red: "#7F1C29",
+      },
+      secondary: {
+        black: "#000",
+        white: "#fff",
+      },
+      spacing: {
+        tabs: "2.5rem",
+      },
+    },
   },
   variants: {},
   plugins: [],
