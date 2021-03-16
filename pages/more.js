@@ -3,64 +3,65 @@ import Hero from "../components/Hero";
 
 const slides = [
   {
-    id: 1,
+    id: 0,
     url: "/Classroom.png",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "ID IS 0 MYA HEEE EE MYA HAW AHWHJWAOJSHWJRJOKPIHUGYFTDRXFCYGHUIOJ",
+  },
+  {
+    id: 1,
+    url: "/Logo.png",
+    description: "ID IS 1 ham hamh mah mahma ham hmahma hmah mahm hamh ham.",
   },
   {
     id: 2,
-    url: "/Logo.png",
+    url: "/Classroom.png",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "ID is 2 tinkering tinkering tinkering rtinkering tinkering tinkering",
   },
   {
     id: 3,
-    url: "/Classroom.png",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    url: "/Logo.png",
+    description: "ID IS 3 yesyesyesyesyesyesyeysyesyeysyesyesyesyeysyesyyesy",
   },
   {
     id: 4,
-    url: "/Logo.png",
+    url: "/Classroom.png",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      " ID IS 4 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
   },
   {
     id: 5,
-    url: "/Classroom.png",
+    url: "/Logo.png",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      " ID IS 5 Aheeeeeejeiheehiuegheegijoeihueeijehueiheheiehihehieheiet fugiat veniam occaecat fugiat aliqua.",
   },
   {
     id: 6,
-    url: "/Logo.png",
+    url: "/Classroom.png",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "ID IS SIX ID IS SEVEN ID IS SEVEN ID IS SEVENAnim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
   },
   {
     id: 7,
-    url: "/Classroom.png",
+    url: "/Logo.png",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "SEVEN SEVEN SEVEN SEVENM SEBVEN  nt amet fugiat veniam occaecat fugiat aliqua.",
   },
   {
     id: 8,
-    url: "/Logo.png",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    url: "/Classroom.png",
+    description: "ID IS  8 AWAHOoOOOOOOOOOOoOooOoOooOOoOoO.",
   },
   {
     id: 9,
-    url: "/Classroom.png",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    url: "/Logo.png",
+    description: "ID is 9 text.png",
   },
   {
     id: 10,
     url: "/Logo.png",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    description: "this shouldnt show up ",
   },
 ];
 

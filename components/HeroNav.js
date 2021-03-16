@@ -7,7 +7,12 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
       >
         <a
           // href="#"
-          onClick={() => handleChangeSlide(activeSlide - 1)}
+          onClick={(slideId) => {
+            activeSlide == "0"
+              ? handleChangeSlide((activeSlide = 9))
+              : handleChangeSlide(activeSlide - 1);
+            console.log(activeSlide);
+          }}
           class="relative inline-flex m-1 items-center px-2 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
         >
           <span class="sr-only">Previous</span>
@@ -95,7 +100,14 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
           10
         </a>
         <a
-          onClick={() => handleChangeSlide(activeSlide + 1)}
+          // onClick={() => handleChangeSlide(activeSlide + 1)}
+          // class="relative inline-flex m-1 items-center px-2 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
+          onClick={(slideId) => {
+            activeSlide == "9"
+              ? handleChangeSlide((activeSlide = 0))
+              : handleChangeSlide(activeSlide + 1);
+            console.log(activeSlide);
+          }}
           class="relative inline-flex m-1 items-center px-2 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
         >
           <span class="sr-only">Next</span>
