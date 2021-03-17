@@ -61,7 +61,7 @@ const slides = [
   {
     id: 10,
     url: "/Logo.png",
-    description: "this shouldnt show up ",
+    description: "ID is 10 ",
   },
 ];
 
