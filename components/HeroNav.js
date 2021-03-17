@@ -9,7 +9,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
           // href="#"
           onClick={(slideId) => {
             activeSlide == "0"
-              ? handleChangeSlide((activeSlide = 9))
+              ? handleChangeSlide(slides.length - 1)
               : handleChangeSlide(activeSlide - 1);
             console.log(activeSlide);
           }}
@@ -78,6 +78,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
         >
           7
         </a>
+        {/* /*hi preston */}
         <a
           onClick={() => handleChangeSlide(8)}
           // href={slides.url}
@@ -103,7 +104,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
           // onClick={() => handleChangeSlide(activeSlide + 1)}
           // class="relative inline-flex m-1 items-center px-2 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
           onClick={(slideId) => {
-            activeSlide == "9"
+            activeSlide == slides.length - 1
               ? handleChangeSlide((activeSlide = 0))
               : handleChangeSlide(activeSlide + 1);
             console.log(activeSlide);
