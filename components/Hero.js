@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import HeroNav from "./HeroNav";
 
 const Hero = ({ slides }) => {
-  const [activeSlide, setActiveSlide] = useState(1);
+  const [activeSlide, setActiveSlide] = useState(0);
 
   //   useEffect(() => {
   //     setInterval(() => {
