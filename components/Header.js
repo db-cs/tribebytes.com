@@ -2,9 +2,9 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header class="px-10 pt-10">
+    <header class="">
       <title>TribeBytes</title>
-      <nav class="bg-white place-content-center px-10 mx-auto py-1 bg-fixed">
+      <nav class="bg-white place-content-center px-10  mx-auto py-1 bg-fixed">
         <div class="flex sm:items-center m-8 mx-auto justify-between ">
           <div
             class="justify-center"
