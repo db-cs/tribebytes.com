@@ -29,6 +29,42 @@ const slides = [
     description:
       " ID IS 4 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
   },
+<<<<<<< HEAD
+=======
+  {
+    id: 5,
+    url: "/Logo.png",
+    description:
+      " ID IS 5 Aheeeeeejeiheehiuegheegijoeihueeijehueiheheiehihehieheiet fugiat veniam occaecat fugiat aliqua.",
+  },
+  {
+    id: 6,
+    url: "/Classroom.png",
+    description:
+      "ID IS SIX ID IS SEVEN ID IS SEVEN ID IS SEVENAnim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+  },
+  {
+    id: 7,
+    url: "/Logo.png",
+    description:
+      "SEVEN SEVEN SEVEN SEVENM SEBVEN  nt amet fugiat veniam occaecat fugiat aliqua.",
+  },
+  {
+    id: 8,
+    url: "/Classroom.png",
+    description: "ID IS  8 AWAHOoOOOOOOOOOOoOooOoOooOOoOoO.",
+  },
+  {
+    id: 9,
+    url: "/Logo.png",
+    description: "ID is 9 text.png",
+  },
+  {
+    id: 10,
+    url: "/Logo.png",
+    description: "ID is 10 ",
+  },
+>>>>>>> abb7301412ad72e614d852dca49053030bc0d968
 ];
 
 export default function More() {

@@ -30,6 +30,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
             />
           </svg>
         </a>
+
         {slides.map((slide, index) => {
           return (
             <a
