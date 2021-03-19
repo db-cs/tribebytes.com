@@ -35,9 +35,9 @@ export default function More() {
   return (
     <>
       <Header />
-      <body class="bg-gradient-to-r from-red-800 via-gray-800 to-black">
-        <main class=" max-w-7xl px-10">
-          <div class="bg-red-900 p-8">
+      <body>
+        <main class="">
+          <div class="bg-red-900 p-8 h-screen">
             <Hero slides={slides} />
           </div>
         </main>

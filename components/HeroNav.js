@@ -43,8 +43,6 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
         })}
 
         <a
-          // onClick={() => handleChangeSlide(activeSlide + 1)}
-          // class="relative inline-flex m-1 items-center px-2 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
           onClick={() => {
             activeSlide == slides.length - 1
               ? handleChangeSlide(0)
