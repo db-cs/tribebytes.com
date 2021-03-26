@@ -1,42 +1,12 @@
-// import React, {useState, useEffects} from 'react';
+import Bailey from "../components/Bailey";
 
-// const DynamicComponentWithNoSSR = <>Some JSX</>
-
-// export default function App(){
-
-// [a,setA] = useState();
-// useEffect(() => {
-//     setA(<DynamicComponentWithNoSSR/>)
-//   });
-
-// return (    )
-// }
-
-// function getMouseCoords(e) {
-//   var e = e || window.event;
-//   document.getElementById("msg").innerHTML =
-//     e.clientX + ", " + e.clientY + "<br>" + e.screenX + ", " + e.screenY;
-// }
-
-// var followCursor = (function () {
-//   var s = document.getElementById("object");
-//   s.style.position = "absolute";
-
-//   return {
-//     init: function () {
-//       document.body.appendChild(s);
-//     },
-
-//     run: function (e) {
-//       var e = e || window.event;
-//       s.style.left = e.clientX - 5 + "px";
-//       s.style.top = e.clientY - 5 + "px";
-//       getMouseCoords(e);
-//     },
-//   };
-// })();
-
-// window.onload = function () {
-//   followCursor.init();
-//   document.body.onmousemove = followCursor.run;
-// };
+export default function ee() {
+  return (
+    <body>
+      <div class="bg-red-900 place-content-center max-w-6xl px-20 mx-auto h-screen">
+        <h1 class="text-center pt-10">ur text here</h1>
+        <Bailey />
+      </div>
+    </body>
+  );
+}

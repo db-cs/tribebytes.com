@@ -25,6 +25,7 @@ const slides = [
     description: "ID IS 3 yesyesyesyesyesyesyeysyesyeysyesyesyesyeysyesyyesy",
   },
   {
+    class: "text-white",
     id: 4,
     url: "/Classroom.png",
     description:
@@ -69,9 +70,9 @@ export default function Home() {
   return (
     <>
       <Header />
-      <body class="bg-gradient-to-r from-red-800 via-gray-800 to-black">
-        <main class=" max-w-7xl px-10">
-          <div class="bg-red-900 p-8">
+      <body class="">
+        <main class=" max-w-screen">
+          <div class="bg-red-900 p-8 h-screen ">
             <Hero slides={slides} />
           </div>
         </main>

@@ -26,7 +26,7 @@ const Hero = ({ slides }) => {
           }`}
           style={{ backgroundImage: `url(${slide.url})` }}
         >
-          <p class="justify-start text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
+          <p class="justify-start text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
             {slide.description}
           </p>
         </div>
