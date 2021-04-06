@@ -3,8 +3,9 @@ import { useEffect, useRef } from "react";
 export default function Bailey() {
   const cursorRef = useRef(null);
   useEffect(() => {
-    if (cursorRef.current == null || cursorRef == null) return;
+    // if (cursorRef.current == null || cursorRef == null) return;
     document.addEventListener("mousemove", (e) => {
+      console.log(e);
       if (cursorRef.current == null) return;
       cursorRef.current.setAttribute(
         "style",

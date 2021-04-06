@@ -17,6 +17,11 @@ function Nav() {
           <a>More</a>
         </ActiveLink>
       </li>
+      <li class="p-1">
+        <ActiveLink href="/graduates">
+          <a>Graduates</a>
+        </ActiveLink>
+      </li>
     </ul>
   );
 }
