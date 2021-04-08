@@ -1,24 +1,242 @@
 {
-  "title": "Graduates",
-  "index": {
-    "title": "Index Page",
-    "content": "<p>Some <strong>index</strong> content...</p>"
-  },
-  "pages": [
+  "graduates": [
     {
-      "title": "Foo Page",
-      "path": "/foo",
-      "content": "<p>Foo content...</p><h2>Heading</h2><p>Some other content...</p>"
+      "id": 1,
+      "name": "Logan Rogers",
+      "year": "2021",
+      "quote": "Compiled successfully",
+      "picture": "/Classroom.png"
     },
     {
-      "title": "Bar Page",
-      "path": "/bar",
-      "content": "<p><strong>Bar</strong> content...</p>"
+      "id": 2,
+      "name": "Preston Ware",
+      "year": "2021",
+      "quote": "I appreciate poptarts",
+      "picture": "/Logo.png"
     },
     {
-      "title": "Baz Page",
-      "path": "/baz",
-      "content": "<p><strong>Baz</strong> content...</p>"
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "picture": "/profilepicture.jpeg"
     }
   ]
 }
