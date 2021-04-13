@@ -1,8 +1,16 @@
 import Image from "next/image";
+import ee from "../pages/ee";
 
 const Graduate = ({ id, name, year, quote, githubUsername }) => (
   <div className="p-5 text-center bg-white border-2 rounded-md">
-    <Image className="m-5 rounded-full" src={`https://github.com/${githubUsername}.png`} alt={`Profile picture for ${name}.`} width={150} height={150} layout="intrinsic" />
+    <Image
+      className="m-5 rounded-full"
+      src={`https://github.com/${githubUsername}.png`}
+      alt={`Profile picture for ${name}.`}
+      width={150}
+      height={150}
+      layout="intrinsic"
+    />
     <h1 className="mb-1 text-4xl font-semibold uppercase">{name}</h1>
     <h2 className="mb-3 font-bold">Graduated {year}</h2>
     <hr className="w-2/3 mx-auto border-2 border-red-700" />

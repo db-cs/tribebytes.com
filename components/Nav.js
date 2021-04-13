@@ -1,7 +1,7 @@
 import ActiveLink from "./activeLink";
 function Nav() {
   return (
-    <ul class="flex self-center justify-self-end">
+    <ul class="flex self-center justify-self-end select-none">
       <li className="p-1">
         <ActiveLink href="/">
           <a>Home</a>
