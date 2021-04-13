@@ -7,9 +7,9 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
       >
         <a
           // href="#"
-          onClick={(slideId) => {
+          onClick={() => {
             activeSlide == "0"
-              ? handleChangeSlide((activeSlide = 9))
+              ? handleChangeSlide(slides.length - 1)
               : handleChangeSlide(activeSlide - 1);
             console.log(activeSlide);
           }}
@@ -30,81 +30,22 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
             />
           </svg>
         </a>
+
+        {slides.map((slide, index) => {
+          return (
+            <a
+              onClick={() => handleChangeSlide(index)}
+              class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+            >
+              {slide.id + 1}
+            </a>
+          );
+        })}
+
         <a
-          // href={slides.url}
-          onClick={() => handleChangeSlide(1)}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          1
-        </a>
-        <a
-          onClick={() => handleChangeSlide(2)}
-          // href={slides.url}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          2
-        </a>
-        <a
-          onClick={() => handleChangeSlide(3)}
-          // href={slides.url}
-          class="hidden m-1 md:inline-flex relative items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          3
-        </a>
-        <a
-          onClick={() => handleChangeSlide(4)}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700"
-        >
-          4
-        </a>
-        <a
-          onClick={() => handleChangeSlide(5)}
-          // href={slides.url}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          5
-        </a>
-        <a
-          onClick={() => handleChangeSlide(6)}
-          // href={slides.url}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          6
-        </a>
-        <a
-          onClick={() => handleChangeSlide(7)}
-          // href={slides.url}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          7
-        </a>
-        <a
-          onClick={() => handleChangeSlide(8)}
-          // href={slides.url}
-          class="hidden m-1 md:inline-flex relative items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          8
-        </a>
-        <a
-          onClick={() => handleChangeSlide(9)}
-          // href={slides.url}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          9
-        </a>
-        <a
-          onClick={() => handleChangeSlide(10)}
-          // href={slides.url}
-          class="relative m-1 inline-flex items-center px-4 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
-        >
-          10
-        </a>
-        <a
-          // onClick={() => handleChangeSlide(activeSlide + 1)}
-          // class="relative inline-flex m-1 items-center px-2 py-2 border rounded-full border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50"
-          onClick={(slideId) => {
-            activeSlide == "9"
-              ? handleChangeSlide((activeSlide = 0))
+          onClick={() => {
+            activeSlide == slides.length - 1
+              ? handleChangeSlide(0)
               : handleChangeSlide(activeSlide + 1);
             console.log(activeSlide);
           }}
