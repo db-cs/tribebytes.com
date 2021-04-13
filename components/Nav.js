@@ -1,29 +1,29 @@
 import ActiveLink from "./activeLink";
-function Nav() {
+
+const navList = [
+  { url: "/", title: "Home" },
+  { url: "/about", title: "About" },
+  { url: "/more", title: "More" },
+  { url: "/graduates", title: "Graduates" },
+];
+
+const NavButton = ({ link }) => (
+  <li className="p-1">
+    <ActiveLink href={link.url}>{link.title}</ActiveLink>
+  </li>
+);
+
+/**
+ * Site wide navgation component for the header
+ **/
+const Nav = () => {
   return (
     <ul className="flex self-center select-none justify-self-end">
-      <li className="p-1">
-        <ActiveLink href="/">
-          <a>Home</a>
-        </ActiveLink>
-      </li>
-      <li className="p-1">
-        <ActiveLink href="/about">
-          <a>About</a>
-        </ActiveLink>
-      </li>
-      <li className="p-1">
-        <ActiveLink href="/more">
-          <a>More</a>
-        </ActiveLink>
-      </li>
-      <li className="p-1">
-        <ActiveLink href="/graduates">
-          <a>Graduates</a>
-        </ActiveLink>
-      </li>
+      {navList.map((link) => (
+        <NavButton key={link.url} link={link} />
+      ))}
     </ul>
   );
-}
+};
 
 export default Nav;

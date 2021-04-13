@@ -1,7 +1,6 @@
 import Image from "next/image";
-import ee from "../pages/ee";
 
-const Graduate = ({ id, name, year, quote, githubUsername }) => (
+const Graduate = ({ name, year, quote, githubUsername }) => (
   <div className="p-5 text-center bg-white border-2 rounded-md">
     <Image
       className="m-5 rounded-full"

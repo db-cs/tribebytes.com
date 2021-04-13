@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-function ActiveLink({ children, href }) {
+const ActiveLink = ({ children, href }) => {
   const router = useRouter();
   const className =
     router.pathname === href
@@ -17,6 +17,6 @@ function ActiveLink({ children, href }) {
       {children}
     </a>
   );
-}
+};
 
 export default ActiveLink;
