@@ -2,12 +2,12 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header class="px-10 ">
+    <header className="px-10 ">
       <title>TribeBytes</title>
-      <nav class="bg-white place-content-center px-10  mx-auto py-1 bg-fixed">
-        <div class="flex sm:items-center m-8 mx-auto justify-between ">
+      <nav className="px-10 py-1 mx-auto bg-fixed bg-white place-content-center">
+        <div className="flex justify-between m-8 mx-auto sm:items-center ">
           <div
-            class="justify-center"
+            className="justify-center"
             data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'
           >
             <img src="/Logo.png" height="150" width="150"></img>

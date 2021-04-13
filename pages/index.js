@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 
 const slides = [
@@ -62,16 +62,11 @@ const slides = [
 
 export default function Home() {
   return (
-    <>
-      <Header />
-      <body class="">
-        <main class=" max-w-screen">
-          <div class="bg-red-900 p-8 h-screen ">
-            <Hero slides={slides} />
-          </div>
-        </main>
-      </body>
-    </>
+    <Layout>
+      <div className="h-screen p-8 bg-red-900">
+        <Hero slides={slides} />
+      </div>
+    </Layout>
   );
 }
 
