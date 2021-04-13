@@ -1,0 +1,19 @@
+{
+    "slides": [
+    {
+        "id": 0,
+        "url": "/Classroom.png",
+        "description": "ID IS 0"
+      },
+      {
+        "id": 1,
+        "url": "/Logo.png",
+        "description": "ID IS 1 "
+      },
+      {
+        "id": 2,
+        "url": "/Classroom.png",
+        "description": "ID is 2 "
+      }
+    ]
+}
