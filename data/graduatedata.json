@@ -5,49 +5,49 @@
       "name": "Logan Rogers",
       "year": "2021",
       "quote": "Compiled successfully",
-      "picture": "/Classroom.png"
+      "githubUsername": "cleverusername82"
     },
     {
       "id": 2,
       "name": "Preston Ware",
       "year": "2021",
       "quote": "I appreciate poptarts",
-      "picture": "/Logo.png"
+      "githubUsername": "preston882"
     },
     {
       "id": 3,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "picture": "/profilepicture.jpeg"
+      "githubUsername": "ty22117"
+    },
+    {
+      "id": 3,
+      "name": "Nathan Bailey",
+      "year": "2021",
+      "quote": "Live long and prosper",
+      "githubUsername": "dnbailey"
     },
     {
       "id": 3,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "picture": "/profilepicture.jpeg"
+      "githubUsername": "preston882"
     },
     {
       "id": 3,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "picture": "/profilepicture.jpeg"
+      "githubUsername": "preston882"
     },
     {
       "id": 3,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "picture": "/profilepicture.jpeg"
-    },
-    {
-      "id": 3,
-      "name": "Ty Young",
-      "year": "2021",
-      "quote": "If dumb people could fly this place would be an airport",
-      "picture": "/profilepicture.jpeg"
+      "githubUsername": "preston882"
     }
   ]
 }
