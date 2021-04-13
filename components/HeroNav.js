@@ -1,5 +1,5 @@
 const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
-  <div class="hidden sm:flex-1 sm:flex sm:items-center absolute">
+  <div class="min-w-full justify-center hidden sm:flex-1 sm:flex sm:items-center py-4">
     <div>
       <nav
         class="relative z-0 inline-flex rounded-fullshadow-sm -space-x-px"

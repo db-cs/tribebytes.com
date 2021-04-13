@@ -21,12 +21,12 @@ const Hero = ({ slides }) => {
       {slides.map((slide) => (
         <div
           key={slide.id}
-          className={`mrl-40 w-full justify-items-center bg-cover py-20 select-none ' ${
+          className={`w-full h-80 bg-cover py-20 ${
             slide.id != activeSlide && "hidden"
           }`}
           style={{ backgroundImage: `url(${slide.url})` }}
         >
-          <p class="justify-start text-base text-black w-100 h-400 md:text-xl">
+          <p class="justify-start text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
             {slide.description}
           </p>
         </div>

@@ -1,0 +1,53 @@
+{
+  "graduates": [
+    {
+      "id": 1,
+      "name": "Logan Rogers",
+      "year": "2021",
+      "quote": "Compiled successfully",
+      "githubUsername": "cleverusername82"
+    },
+    {
+      "id": 2,
+      "name": "Preston Ware",
+      "year": "2021",
+      "quote": "I appreciate poptarts",
+      "githubUsername": "preston882"
+    },
+    {
+      "id": 3,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "githubUsername": "ty22117"
+    },
+    {
+      "id": 3,
+      "name": "Nathan Bailey",
+      "year": "2021",
+      "quote": "Live long and prosper",
+      "githubUsername": "dnbailey"
+    },
+    {
+      "id": 4,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "githubUsername": "preston882"
+    },
+    {
+      "id": 4,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "githubUsername": "preston882"
+    },
+    {
+      "id": 4,
+      "name": "Ty Young",
+      "year": "2021",
+      "quote": "If dumb people could fly this place would be an airport",
+      "githubUsername": "preston882"
+    }
+  ]
+}
