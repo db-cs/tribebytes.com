@@ -1,9 +1,8 @@
-import Header from "../components/Header";
+import Layout from "../components/Header";
 
 export default function About() {
   return (
-    <body class="">
-      <Header />
+    <Layout title="About">
       <div class="bg-red-900 max-w-screen px-20 mx-auto h-screen ">
         <h1 class="pt-20 text-white  float-right">
           <img
@@ -21,6 +20,6 @@ export default function About() {
           school, I enjoy eating good food and traveling with my wife, Lize.
         </h1>
       </div>
-    </body>
+    </Layout>
   );
 }
