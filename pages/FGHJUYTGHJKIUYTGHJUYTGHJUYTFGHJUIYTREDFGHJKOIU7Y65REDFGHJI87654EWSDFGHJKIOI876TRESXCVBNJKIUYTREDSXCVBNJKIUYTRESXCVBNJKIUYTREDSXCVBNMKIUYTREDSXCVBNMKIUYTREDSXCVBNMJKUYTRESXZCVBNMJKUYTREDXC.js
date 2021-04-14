@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import { Alert } from "reactstrap";
-export default function ee() {
+export default function FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC() {
   return (
     <body className="bg-red-900">
       <div className="animate-bounce absolute">

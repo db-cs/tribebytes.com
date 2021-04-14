@@ -22,6 +22,11 @@ function Nav() {
           <a>Graduates</a>
         </ActiveLink>
       </li>
+      <li class="p-1">
+        <ActiveLink href="/classes">
+          <a>Classes</a>
+        </ActiveLink>
+      </li>
     </ul>
   );
 }
