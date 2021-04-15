@@ -21,14 +21,17 @@ const Hero = ({ slides }) => {
       {slides.map((slide) => (
         <div
           key={slide.id}
-          className={`w-full h-80 bg-cover py-20 ${
+          className={`w-full bg-cover bg-center flex items-end ${
             slide.id != activeSlide && "hidden"
           }`}
           style={{ backgroundImage: `url(${slide.url})` }}
         >
-          <p className="justify-start text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
-            {slide.description}
-          </p>
+          <article className="w-full pt-64 pb-20 pl-20 text-white bg-gradient-to-r from-red-900 via-transparent to-red-900">
+            <p className="text-4xl font-bold uppercase">title</p>
+            <p className="sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
+              {slide.description}
+            </p>
+          </article>
         </div>
       ))}
       <HeroNav
