@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
-const Graduate = ({ name, year, quote, githubUsername }) => (
+const Graduate = ({ name, year, quote, githubUsername, id, pfp }) => (
   <div className="p-5 text-center bg-white border-2 rounded-md">
     <Image
       className="m-5 rounded-full"
@@ -20,6 +21,9 @@ const Graduate = ({ name, year, quote, githubUsername }) => (
         <p>{githubUsername}</p>
       </div>
     </a>
+    <Link href={`/graduates/${id}`}>
+      <p>Full Profile</p>
+    </Link>
   </div>
 );
 

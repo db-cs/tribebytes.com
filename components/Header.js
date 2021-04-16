@@ -11,6 +11,14 @@ const Header = () => {
             data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'
           >
             <img src="/Logo.png" height="150" width="150"></img>
+            <a
+              href={
+                "/FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC"
+              }
+              className="opacity-0"
+            >
+              .
+            </a>
           </div>
           <Nav />
         </div>
