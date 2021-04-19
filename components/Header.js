@@ -1,29 +1,26 @@
+import Image from "next/image";
 import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header class="px-10 ">
-      <title>TribeBytes</title>
-      <nav class="bg-white place-content-center px-10  mx-auto py-1 bg-fixed">
-        <div class="flex sm:items-center m-8 mx-auto justify-between ">
-          <div
-            class="justify-center"
-            data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'
+    <nav className="px-20 py-1 mx-auto bg-fixed bg-white place-content-center">
+      <div className="flex justify-between m-8 mx-auto sm:items-center ">
+        <a href="/">
+          <Image src="/LogoFlat.svg" height="50" width="300" />
+          <a
+            href={
+              "/FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC"
+            }
+            className="opacity-0"
           >
-            <img src="/Logo.png" height="150" width="150"></img>
-            <a
-              href={
-                "/FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC"
-              }
-              className="opacity-0"
-            >
-              .
-            </a>
-          </div>
-          <Nav />
-        </div>
-      </nav>
-    </header>
+            .
+          </a>
+        </a>
+
+        <Nav />
+      </div>
+    </nav>
   );
 };
+
 export default Header;
