@@ -36,7 +36,7 @@ const Hero = ({ slides }) => {
             </p>
 
             <Link href={`${slide.link}`}>
-              <p className="transition bg-opacity-75 bg-blend-difference duration-300 font-bold  sm:text-xl ease-in transform hover:bg-transparent hover:border-red-700 w-40 p-2 mt-5 flex-shrink  bg-red-700 border-transparent border-2 rounded-md">
+              <p className="cursor-pointer transition bg-opacity-75 bg-blend-difference duration-300 font-bold  sm:text-xl hover:text-white ease-in transform hover:bg-opacity-25  w-40 p-2 mt-5 flex-shrink text-black  bg-white border-transparent border-2 rounded-md">
                 Learn More...
               </p>
             </Link>

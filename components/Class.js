@@ -22,7 +22,7 @@ export default function Class({ name, year, info, slug }) {
         <h2 className="mb-5 font-bold">{year}</h2>
         <hr className="w-2/3 mx-auto border-2 border-red-700" />
         <p className="mt-3">{info}</p>
-        <div className="transition duration-300 ease-in transform hover:bg-gray-200 hover:border-transparent w-40 flex-shrink mx-auto mt-5 bg-white border-2 rounded-md">
+        <div className="transition cursor-pointer duration-300 ease-in transform hover:bg-gray-200 hover:border-transparent w-40 flex-shrink mx-auto mt-5 bg-white border-2 rounded-md">
           <Link href={`/classes/${slug}`}>
             <p className="p-4">Learn more...</p>
           </Link>
