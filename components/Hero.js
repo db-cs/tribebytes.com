@@ -31,7 +31,7 @@ const Hero = ({ slides }) => {
           <article className="w-full pt-20 pb-5 pl-20 text-white bg-gradient-to-r from-red-900 via-transparent to-red-900">
             <p className="text-4xl font-bold uppercase">{slide.title}</p>
             <hr className="w-1/4 ml-3  mb-8 border-2 border-red-700" />
-            <p className="sm:mt-5 sm:text-xl sm:max-w-xl md:text-xl">
+            <p className="sm:mt-5 bg-black p-5 rounded-2xl bg-opacity-50 sm:text-xl sm:max-w-xl md:text-xl">
               {slide.description}
             </p>
 
