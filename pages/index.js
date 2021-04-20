@@ -66,7 +66,7 @@ const Testimonial = ({ name, title, children }) => {
         <h2 className="text-sm font-medium tracking-wider text-gray-700 uppercase title-font">
           {name}
         </h2>
-        <p className="text-gray-600">{title}</p>
+        <p className="text-black">{title}</p>
       </div>
     </div>
   );

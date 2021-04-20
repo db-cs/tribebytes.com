@@ -10,7 +10,6 @@ const Course = () => {
   const currentProfile = graduatedata.graduates.find(
     (graduate) => graduate.url === pid
   );
-  console.log(currentProfile);
 
   if (currentProfile) {
     return (

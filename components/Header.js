@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <nav className="px-20 py-1 mx-auto bg-fixed bg-white place-content-center">
       <div className="flex justify-between m-8 mx-auto sm:items-center ">
-        <a href="/">
-          <Image src="/LogoFlat.svg" height="50" width="300" />
+        <div href="/">
+          <Image src="/LogoFlat.svg" alt="TribeBytes" height="50" width="300" />
           <a
             href={
               "/FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC"
@@ -15,7 +15,7 @@ const Header = () => {
           >
             .
           </a>
-        </a>
+        </div>
 
         <Nav />
       </div>

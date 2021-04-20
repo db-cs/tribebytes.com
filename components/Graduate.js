@@ -17,7 +17,7 @@ const Graduate = ({ name, year, quote, githubUsername, url }) => (
     <p className="mt-3">"{quote}"</p>
     <a href={`https://github.com/${githubUsername}`}>
       <div className="inline-flex items-center justify-center px-6 py-2 my-8 border-2 rounded-md hover:bg-gray-400 hover:border-transparent">
-        <img className="pr-2" src="/GitHub-Mark-32px.png" />
+        <img className="pr-2" alt="github" src="/GitHub-Mark-32px.png" />
         <p>{githubUsername}</p>
       </div>
     </a>

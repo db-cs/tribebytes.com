@@ -3,7 +3,7 @@ import ActiveLink from "./activeLink";
 const navList = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
-  { url: "/more", title: "More" },
+  // { url: "/more", title: "More" },
   { url: "/graduates", title: "Graduates" },
   { url: "/classes", title: "Classses" },
 ];

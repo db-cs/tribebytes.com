@@ -1,10 +1,10 @@
 import { classes } from "../data/classdata.json";
 import Header from "../components/Header";
 import Class from "../components/Class";
+import Layout from "../components/Layout";
 
 const Classes = () => (
-  <body>
-    <Header />
+  <Layout title="Classes">
     <div className="flex items-center justify-center h-56 text-white bg-red-900">
       <h1 className="text-4xl font-bold uppercase">Classes</h1>
     </div>
@@ -13,6 +13,6 @@ const Classes = () => (
         <Class key={classN.id} {...classN} />
       ))}
     </div>
-  </body>
+  </Layout>
 );
 export default Classes;

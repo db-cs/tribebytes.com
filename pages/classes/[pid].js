@@ -1,18 +1,16 @@
 import { useRouter } from "next/router";
 import classdata from "../../data/classdata.json";
-import Header from "../../components/Header";
+import Layout from "../../components/Layout";
 
 const Course = () => {
   const router = useRouter();
   const { pid } = router.query;
 
   const currentCourse = classdata.classes.find((course) => course.slug === pid);
-  console.log(currentCourse);
 
   if (currentCourse) {
     return (
-      <body class="">
-        <Header />
+      <Layout title={`${currentCourse.name}`}>
         <div className="h-screen px-20 mx-auto bg-red-900 place-content-center max-w-screen">
           <h1 className="pt-20 text-white float-right">
             <h1 className="text-5xl underline text-center mb-10">
@@ -45,7 +43,7 @@ const Course = () => {
             </div>
           </h1>
         </div>
-      </body>
+      </Layout>
     );
   } else {
     return <p>Loading...</p>;
