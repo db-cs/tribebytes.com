@@ -1,5 +1,4 @@
-import Header from "../components/Header";
-export default function FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC() {
+export default function ee() {
   return (
     <body className="bg-red-900">
       <div className="absolute animate-bounce">

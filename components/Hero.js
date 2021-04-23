@@ -4,12 +4,12 @@ import HeroNav from "./HeroNav";
 const Hero = ({ slides }) => {
   const [activeSlide, setActiveSlide] = useState(0);
 
-  //   useEffect(() => {
-  //     setInterval(() => {
-  //       // Deal with what happens when we reach the end of the slides
-  //       setActiveSlide(activeSlide + 1);
-  //     }, 1000);
-  //   }, [activeSlide]);
+  // useEffect(() => {
+  //   setInterval(() => {
+  //     // Deal with what happens when we reach the end of the slides
+  //     setActiveSlide(activeSlide + 1);
+  //   }, 1000);
+  // }, [activeSlide]);
 
   const handleChangeSlide = (slideId) => {
     // TODO Validate that slide with ID exisits then
@@ -21,14 +21,17 @@ const Hero = ({ slides }) => {
       {slides.map((slide) => (
         <div
           key={slide.id}
-          className={`w-full h-80 bg-cover py-20 ${
+          className={`w-full bg-cover bg-center flex items-end ${
             slide.id != activeSlide && "hidden"
           }`}
           style={{ backgroundImage: `url(${slide.url})` }}
         >
-          <p class="justify-start text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
-            {slide.description}
-          </p>
+          <article className="w-full pt-64 pb-20 pl-20 text-white bg-gradient-to-r from-red-900 via-transparent to-red-900">
+            <p className="text-4xl font-bold uppercase">title</p>
+            <p className="sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
+              {slide.description}
+            </p>
+          </article>
         </div>
       ))}
       <HeroNav

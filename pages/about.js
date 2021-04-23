@@ -1,18 +1,17 @@
-import Header from "../components/Header";
+import Layout from "../components/Header";
 
 export default function About() {
   return (
-    <body class="">
-      <Header />
-      <div class="bg-red-900 max-w-screen px-20 mx-auto h-screen ">
-        <h1 class="pt-20 text-white  float-right">
+    <Layout title="About">
+      <div className="h-screen px-20 mx-auto bg-red-900 max-w-screen ">
+        <h1 className="float-right pt-20 text-white">
           <img
-            class="mr-8 float-left rounded-lg"
+            className="float-left mr-8 rounded-lg"
             src="/profilepicture.jpeg"
             height="350"
             width="350"
           ></img>
-          <h1 class="text-xl">Nathan Bailey</h1>
+          <h1 className="text-xl">Nathan Bailey</h1>
           <br></br>I have been teaching for over eleven years and have worked
           with both high school and elementary school students. Beginning my
           teaching career as a visual art teacher, I transitioned to teaching
@@ -21,6 +20,6 @@ export default function About() {
           school, I enjoy eating good food and traveling with my wife, Lize.
         </h1>
       </div>
-    </body>
+    </Layout>
   );
 }
