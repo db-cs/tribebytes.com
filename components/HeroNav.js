@@ -12,7 +12,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
               ? handleChangeSlide(slides.length - 1)
               : handleChangeSlide(activeSlide - 1);
           }}
-          className="bg-opacity-75 relative inline-flex items-center px-2 py-1 mx-1 font-bold text-sm font-medium text-black bg-white border border-red-700 rounded-full hover:text-red-700 hover:bg-transparent transition ease-in duration-300"
+          className="bg-opacity-75 cursor-pointer relative inline-flex items-center px-2 py-1 mx-1 font-bold text-sm font-medium text-black bg-white rounded-full hover:text-white hover:bg-opacity-25 transition ease-in duration-300"
         >
           <span className="sr-only">Previous</span>
           <svg
@@ -35,7 +35,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
             <a
               key={slide.id}
               onClick={() => handleChangeSlide(index)}
-              className="bg-opacity-75 relative inline-flex items-center px-4 py-2 font-bold text-sm font-medium text-black bg-white border border-red-700 rounded-full hover:text-red-700 hover:bg-transparent transition ease-in duration-300"
+              className="bg-opacity-75 cursor-pointer relative inline-flex items-center px-4 py-2 font-bold text-sm font-medium text-black bg-white  rounded-full hover:text-white hover:bg-opacity-25 transition ease-in duration-300"
             >
               {slide.id + 1}
             </a>
@@ -48,7 +48,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
               ? handleChangeSlide(0)
               : handleChangeSlide(activeSlide + 1);
           }}
-          className="bg-opacity-75 relative inline-flex items-center px-2 py-1 mx-1 font-bold text-sm font-medium text-black bg-white border border-red-700 rounded-full hover:bg-transparent hover:text-red-700 transition ease-in duration-300"
+          className="bg-opacity-75 relative cursor-pointer inline-flex items-center px-2 py-1 mx-1 font-bold text-sm font-medium text-black bg-white rounded-full hover:bg-opacity-25 hover:text-white transition ease-in duration-300"
         >
           <span className="sr-only">Next</span>
           <svg
