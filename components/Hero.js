@@ -30,13 +30,13 @@ const Hero = ({ slides }) => {
         >
           <article className="w-full pt-20 pb-5 pl-20 text-white bg-gradient-to-r from-red-900 via-transparent to-red-900">
             <p className="text-4xl font-bold uppercase">{slide.title}</p>
-            <hr className="w-1/4 ml-3  mb-8 border-2 border-red-700" />
-            <p className="sm:mt-5 bg-black p-5 rounded-2xl bg-opacity-50 sm:text-xl sm:max-w-xl md:text-xl">
+            <hr className="w-1/4 mb-8 ml-3 border-2 border-red-700" />
+            <p className="p-5 bg-black bg-opacity-50 sm:mt-5 rounded-2xl sm:text-xl sm:max-w-xl md:text-xl">
               {slide.description}
             </p>
 
             <Link href={`${slide.link}`}>
-              <p className="transition bg-opacity-75 bg-blend-difference duration-300 font-bold  sm:text-xl ease-in transform hover:bg-transparent hover:border-red-700 w-40 p-2 mt-5 flex-shrink  bg-red-700 border-transparent border-2 rounded-md">
+              <p className="flex-shrink w-40 p-2 mt-5 font-bold transition duration-300 ease-in transform bg-red-700 bg-opacity-75 border-2 border-transparent rounded-md select-none bg-blend-difference sm:text-xl hover:bg-transparent hover:border-red-700">
                 Learn More...
               </p>
             </Link>
@@ -47,7 +47,7 @@ const Hero = ({ slides }) => {
                 handleChangeSlide={handleChangeSlide}
               />
             </div>
-            <hr className="w-1/6 mb-5 mx-auto border-2 border-red-700" />
+            <hr className="w-1/6 mx-auto mb-5 border-2 border-red-700" />
           </article>
         </div>
       ))}
