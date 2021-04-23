@@ -2,18 +2,24 @@
     "slides": [
     {
         "id": 0,
+        "title":"The Flying Sausage",
         "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-        "description": "ID IS 0"
+        "description": "AS U BEING MY FRIEND I WILL WARN ABOUT MY HUMAN BEING IN THE TELESCOPE. BUT WHAT I REALLY NEED TO TALK TO U ABOUT IS THE FLYING SAUSAGE INCIDENT I DON’T THINK I TALKED TO U ABOUT THIS BUT U REALLY SHOULD KNOW THAT I AM SECRETLY A FLYING...",
+        "link":"/classes/CSFP2"
       },
       {
         "id": 1,
+        "title":"The Young Hotwing",
         "url": "https://images.unsplash.com/photo-1618381801643-3d253a63a386?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80",
-        "description": "ID IS 1 "
+        "description": "DID U KNOW THAT A LONG TIME AGO THERE ONCE WAS A YOUNG HOT WING HE WAS A VERY NICE HOT WING EXCEPT HE WANTED TO HE TOMATO'S NOT JUST NORMAL TAMATO'S BUT TOMATO'S FROM A CLOWNS NOSE. HE HAD TO HAVE THE CLOWNS ...",
+        "link":"/classes/MAD"
       },
       {
         "id": 2,
+        "title":"The Random Jellyfish",
         "url": "https://images.unsplash.com/photo-1504164996022-09080787b6b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80",
-        "description": "ID is 2 "
+        "description": "THE CLEANED DERIVATIVE BETTERS THE DIVERSE SOUNDTRACK. A CLEAN MESSAGE RECYCLES UGLY FISH. UGLY FISH WATCHES MEAN BETTY THROUGHOUT THE REALISTIC JUSTICE. UGLY FISH ABSTRACTS MEAN BETTY. A COOK GEARS MEAN BETTY...",
+        "link":"/classes/CP"
       }
     ]
 }
