@@ -2,20 +2,30 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header class="px-10 ">
-      <title>TribeBytes</title>
-      <nav class="bg-white place-content-center px-10  mx-auto py-1 bg-fixed">
-        <div class="flex sm:items-center m-8 mx-auto justify-between ">
-          <div
-            class="justify-center"
-            data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'
-          >
-            <img src="/Logo.png" height="150" width="150"></img>
+    <>
+      <header class="px-10 ">
+        <title>TribeBytes</title>
+        <nav class="bg-white place-content-center px-10  mx-auto py-1 bg-fixed">
+          <div class="flex sm:items-center m-8 mx-auto justify-between ">
+            <div
+              class="justify-center"
+              data-replace='{ "translate-y-12": "translate-y-0", "opacity-0": "opacity-100" }'
+            >
+              <img src="/Logo.png" height="150" width="150"></img>
+              <a
+                href={
+                  "/FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC"
+                }
+                className="opacity-0"
+              >
+                .
+              </a>
+            </div>
+            <Nav />
           </div>
-          <Nav />
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
+    </>
   );
 };
 export default Header;

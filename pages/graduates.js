@@ -1,18 +1,9 @@
-import Head from "next/head";
 import { graduates } from "../data/graduatedata.json";
 import Header from "../components/Header";
 import Graduate from "../components/Graduate";
 
 const Graduates = () => (
   <body>
-    <a
-      href={
-        "/FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC"
-      }
-      className="opacity-0"
-    >
-      .
-    </a>
     <Header />
     <div className="flex items-center justify-center h-56 text-white bg-red-900">
       <h1 className="text-4xl font-bold uppercase">Graduates</h1>
