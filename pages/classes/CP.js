@@ -3,7 +3,7 @@ import classdata from "../../data/classdata.json";
 import Layout from "../../components/Layout";
 
 const Course = () => {
-  const currentCourse = classdata.classes.find((course) => course.id === 0);
+  const currentCourse = classdata.classes.find((course) => course.id === 3);
   console.log(currentCourse);
 
   if (currentCourse) {
@@ -20,7 +20,6 @@ const Course = () => {
               height="350"
               width="350"
             ></img>
-            <p>{currentCourse.info}</p>
           </div>
         </div>
       </Layout>

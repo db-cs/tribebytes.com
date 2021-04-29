@@ -5,29 +5,22 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <a
-        href={
-          "/FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGHJI87654EWSDFGHJKIOI876TRESXCVBNJKIUYTREDSXCVBNJKIUYTRESXCVBNJKIUYTREDSXCVBNMKIUYTREDSXCVBNMKIUYTREDSXCVBNMJKUYTRESXZCVBNMJKUYTREDXC"
-        }
-        className="opacity-0 absolute cursor-default"
-      >
-        .
-      </a>
-      <nav className="px-20 py-1 mx-auto bg-fixed bg-white place-content-center">
-        <div className="flex justify-between m-8 mx-auto sm:items-center ">
+      <header className="dark:bg-black">
+        <div className="flex max-w-6xl justify-between m-8 mx-auto sm:items-center ">
           <Link href="/">
-            <Image
-              className="cursor-pointer"
-              src="/LogoFlat.svg"
-              alt="TribeBytes"
-              height="50"
-              width="300"
-            />
+            <a className="cursor-pointer">
+              <Image
+                src="/LogoFlat.svg"
+                alt="TribeBytes"
+                height="50"
+                width="300"
+              />
+            </a>
           </Link>
 
           <Nav />
         </div>
-      </nav>
+      </header>
     </>
   );
 };

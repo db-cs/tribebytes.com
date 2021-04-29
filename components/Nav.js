@@ -9,9 +9,11 @@ const navList = [
 ];
 
 const NavButton = ({ link }) => (
-  <li className="p-1">
-    <ActiveLink href={link.url}>{link.title}</ActiveLink>
-  </li>
+  <div className="cursor-pointer transition duration-300 ease-in transform active:underline hover:scale-110 inline-flex items-center px-4 m-1 py-2 border border-black rounded-md text-sm font-medium text-black bg-transparent hover:bg-red-800 focus:outline focus:ring-4 focus:ring-offset-2 focus:ring-red-800 hover:underline">
+    <li>
+      <ActiveLink href={link.url}>{link.title}</ActiveLink>
+    </li>
+  </div>
 );
 
 /**
@@ -19,11 +21,13 @@ const NavButton = ({ link }) => (
  **/
 const Nav = () => {
   return (
-    <ul className="flex self-center select-none justify-self-end">
-      {navList.map((link) => (
-        <NavButton key={link.url} link={link} />
-      ))}
-    </ul>
+    <nav>
+      <ul className="flex self-center select-none justify-self-end">
+        {navList.map((link) => (
+          <NavButton key={link.url} link={link} />
+        ))}
+      </ul>
+    </nav>
   );
 };
 
