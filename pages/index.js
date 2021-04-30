@@ -30,11 +30,12 @@ export default function Home() {
           </div>
           <hr className="w-1/2 mx-auto mb-8 border-2 border-red-900" />
           <div className="flex flex-col gap-8 lg:flex-row">
-            <Testimonial name="HOLDEN CAULFIELD" title="Class of 2021">
-              Edison bulb retro cloud bread echo park, helvetica stumptown
-              taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-              ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-              adaptogen squid fanny pack vaporware.
+            <Testimonial name="Preston Ware" title="Class of 2021">
+              The only way to achieve success is to fail. You have to prepare to
+              fail. You cant be scared to fail. If you do fail however, Fail
+              forward. Every single person around you has failed or is going to
+              fail, but the most successful people fail by turning the fail into
+              a success.
             </Testimonial>
             <Testimonial name="HOLDEN CAULFIELD" title="Class of 2021">
               Edison bulb retro cloud bread echo park, helvetica stumptown

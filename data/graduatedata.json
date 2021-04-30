@@ -14,11 +14,11 @@
       "id": 2,
       "name": "Preston Ware",
       "year": "2021",
-      "quote": "1 + 1 = 10",
+      "quote": "1 + 1 = 3 ",
       "githubUsername": "preston882",
       "url": "PrestonWare",
-      "header1": "Header 1",
-      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "header1": "About me",
+      "body1": "Hey there, welcome to my page. Im definitely the coolest graduate, you can't deny that. Throughout my time here at DB I took 3 years of coding classes. Those classes consisted of Mobile App Development, Computer Science Principles 2 (I Skipped the first one), and Coding Practicum, all for a whole year. Out of the 3 classes that I took, as a senior I definitely believe that Coding Practicum was the best. I was assigned tasks every day including running around the school to do assignments or pick up some tech for Mr. Bailey."
     },
     {
       "id": 3,
@@ -27,48 +27,6 @@
       "quote": "If dumb people could fly this place would be an airport",
       "githubUsername": "ty22117",
       "url": "TyYoung",
-      "header1": "Header 1",
-      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": 4,
-      "name": "Nathan Bailey",
-      "year": "2021",
-      "quote": "Live long and prosper",
-      "languages": "C#, Javascript, Python",
-      "speciality": "Game Development",
-      "githubUsername": "dnbailey",
-      "url": "NathanBailey",
-      "header1": "Header 1",
-      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": 5,
-      "name": "Ty Young",
-      "year": "2021",
-      "quote": "If dumb people could fly this place would be an airport",
-      "githubUsername": "preston882",
-      "url": "PrestonTy",
-      "header1": "Header 1",
-      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": 6,
-      "name": "Ty Young",
-      "year": "2021",
-      "quote": "If dumb people could fly this place would be an airport",
-      "githubUsername": "preston882",
-      "url": "TyPreston",
-      "header1": "Header 1",
-      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    },
-    {
-      "id": 7,
-      "name": "Ty Young",
-      "year": "2021",
-      "quote": "If dumb people could fly this place would be an airport",
-      "githubUsername": "preston882",
-      "url": "YesBoi",
       "header1": "Header 1",
       "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
