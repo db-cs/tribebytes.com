@@ -5,49 +5,72 @@
       "name": "Logan Rogers",
       "year": "2021",
       "quote": "Compiled successfully",
-      "githubUsername": "cleverusername82"
+      "githubUsername": "cleverusername82",
+      "url": "LoganRogers",
+      "header1": "Header 1",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 2,
       "name": "Preston Ware",
       "year": "2021",
-      "quote": "I appreciate poptarts",
-      "githubUsername": "preston882"
+      "quote": "1 + 1 = 10",
+      "githubUsername": "preston882",
+      "url": "PrestonWare",
+      "header1": "Header 1",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 3,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "githubUsername": "ty22117"
+      "githubUsername": "ty22117",
+      "url": "TyYoung",
+      "header1": "Header 1",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 4,
       "name": "Nathan Bailey",
       "year": "2021",
       "quote": "Live long and prosper",
-      "githubUsername": "dnbailey"
+      "languages": "C#, Javascript, Python",
+      "speciality": "Game Development",
+      "githubUsername": "dnbailey",
+      "url": "NathanBailey",
+      "header1": "Header 1",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 5,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "githubUsername": "preston882"
+      "githubUsername": "preston882",
+      "url": "PrestonTy",
+      "header1": "Header 1",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 6,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "githubUsername": "preston882"
+      "githubUsername": "preston882",
+      "url": "TyPreston",
+      "header1": "Header 1",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 7,
       "name": "Ty Young",
       "year": "2021",
       "quote": "If dumb people could fly this place would be an airport",
-      "githubUsername": "preston882"
+      "githubUsername": "preston882",
+      "url": "YesBoi",
+      "header1": "Header 1",
+      "body1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
   ]
 }

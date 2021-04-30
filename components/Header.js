@@ -1,16 +1,27 @@
 import Image from "next/image";
 import Nav from "./Nav";
+import Link from "next/link";
 
 const Header = () => {
   return (
-    <nav className="px-20 py-1 mx-auto bg-fixed bg-white place-content-center">
-      <div className="flex justify-between m-8 mx-auto sm:items-center ">
-        <a href="/">
-          <Image src="/LogoFlat.svg" height="50" width="300" />
-        </a>
-        <Nav />
-      </div>
-    </nav>
+    <>
+      <header className="dark:bg-black">
+        <div className="flex max-w-6xl justify-between m-8 mx-auto sm:items-center ">
+          <Link href="/">
+            <a className="cursor-pointer">
+              <Image
+                src="/LogoFlat.svg"
+                alt="TribeBytes"
+                height="50"
+                width="300"
+              />
+            </a>
+          </Link>
+
+          <Nav />
+        </div>
+      </header>
+    </>
   );
 };
 

@@ -2,7 +2,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
   <div className="justify-center hidden min-w-full py-4 sm:flex-1 sm:flex sm:items-center">
     <div>
       <nav
-        className="relative z-0 inline-flex -space-x-px rounded-fullshadow-sm"
+        className="relative z-0 inline-flex  rounded-fullshadow-sm"
         aria-label="Pagination"
       >
         <a
@@ -11,9 +11,8 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
             activeSlide == "0"
               ? handleChangeSlide(slides.length - 1)
               : handleChangeSlide(activeSlide - 1);
-            console.log(activeSlide);
           }}
-          className="relative inline-flex items-center px-2 py-2 m-1 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-full hover:bg-gray-50"
+          className="bg-opacity-75 cursor-pointer relative inline-flex items-center px-2 py-1 mx-1 font-bold text-sm font-medium text-black bg-white rounded-full hover:text-white hover:bg-opacity-25 transition ease-in duration-300"
         >
           <span className="sr-only">Previous</span>
           <svg
@@ -36,7 +35,7 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
             <a
               key={slide.id}
               onClick={() => handleChangeSlide(index)}
-              className="relative inline-flex items-center px-4 py-2 m-1 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-full hover:bg-gray-50"
+              className="bg-opacity-75 cursor-pointer relative inline-flex items-center px-4 py-2 font-bold text-sm font-medium text-black bg-white  rounded-full hover:text-white hover:bg-opacity-25 transition ease-in duration-300"
             >
               {slide.id + 1}
             </a>
@@ -48,9 +47,8 @@ const HeroNav = ({ slides, activeSlide, handleChangeSlide }) => (
             activeSlide == slides.length - 1
               ? handleChangeSlide(0)
               : handleChangeSlide(activeSlide + 1);
-            console.log(activeSlide);
           }}
-          className="relative inline-flex items-center px-2 py-2 m-1 text-sm font-medium text-gray-500 bg-white border border-gray-300 rounded-full hover:bg-gray-50"
+          className="bg-opacity-75 relative cursor-pointer inline-flex items-center px-2 py-1 mx-1 font-bold text-sm font-medium text-black bg-white rounded-full hover:bg-opacity-25 hover:text-white transition ease-in duration-300"
         >
           <span className="sr-only">Next</span>
           <svg

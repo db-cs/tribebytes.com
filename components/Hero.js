@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import HeroNav from "./HeroNav";
+import Link from "next/link";
 
 const Hero = ({ slides }) => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -21,21 +22,35 @@ const Hero = ({ slides }) => {
       {slides.map((slide) => (
         <div
           key={slide.id}
-          className={`w-full h-80 bg-cover py-20 ${
+          alt="Hero Img"
+          className={`w-full bg-cover bg-center flex items-end ${
             slide.id != activeSlide && "hidden"
           }`}
           style={{ backgroundImage: `url(${slide.url})` }}
         >
-          <p className="justify-start text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl md:text-xl">
-            {slide.description}
-          </p>
+          <article className="w-full pt-20 pb-5 pl-20 text-white bg-gradient-to-r from-red-900 via-transparent to-red-900">
+            <p className="text-4xl font-bold uppercase">{slide.title}</p>
+            <hr className="w-1/4 mb-8 ml-3 border-2 border-red-700" />
+            <p className="p-5 bg-black bg-opacity-50 sm:mt-5 rounded-2xl sm:text-xl sm:max-w-xl md:text-xl">
+              {slide.description}
+            </p>
+
+            <Link href={`${slide.link}`}>
+              <p className="flex-shrink w-40 p-2 mt-5 font-bold text-black transition duration-300 ease-in transform bg-white bg-opacity-75 border-2 border-transparent rounded-md cursor-pointer bg-blend-difference sm:text-xl hover:text-white hover:bg-opacity-25">
+                Learn More...
+              </p>
+            </Link>
+            <div className="mx-auto mt-5">
+              <HeroNav
+                slides={slides}
+                activeSlide={activeSlide}
+                handleChangeSlide={handleChangeSlide}
+              />
+            </div>
+            <hr className="w-1/6 mx-auto mb-5 border-2 border-red-700" />
+          </article>
         </div>
       ))}
-      <HeroNav
-        slides={slides}
-        activeSlide={activeSlide}
-        handleChangeSlide={handleChangeSlide}
-      />
     </div>
   );
 };
