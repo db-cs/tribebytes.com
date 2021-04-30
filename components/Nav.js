@@ -9,9 +9,11 @@ const navList = [
 ];
 
 const NavButton = ({ link }) => (
-  <div className="cursor-pointer transition duration-300 ease-in transform active:underline hover:scale-110 inline-flex items-center px-4 m-1 py-2 border border-black rounded-md text-sm font-medium text-black bg-transparent hover:bg-red-800 focus:outline focus:ring-4 focus:ring-offset-2 focus:ring-red-800 hover:underline">
+  <div className="cursor-pointer transition duration-300 ease-in transform active:underline hover:scale-110 inline-flex items-center px-4 m-1 py-2 border border-black rounded-md text-sm font-medium bg-transparent hover:bg-red-800 focus:outline focus:ring-4 focus:ring-offset-2 dark:bg-white focus:ring-red-800 hover:underline">
     <li>
-      <ActiveLink href={link.url}>{link.title}</ActiveLink>
+      <ActiveLink href={link.url}>
+        <a className="dark:text-white">{link.title}</a>
+      </ActiveLink>
     </li>
   </div>
 );
