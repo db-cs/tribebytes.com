@@ -8,7 +8,7 @@ export default function Class({ name, year, info, slug }) {
     <div>
       <div
         // onClick={() => router.push(`/course/${slug}`)}
-        className=" p-5 text-center bg-white border-2 rounded-md"
+        className="p-5 text-center bg-white border-2 rounded-md "
       >
         <Image
           className="m-5 rounded-xl"
@@ -22,7 +22,7 @@ export default function Class({ name, year, info, slug }) {
         <h2 className="mb-5 font-bold">{year}</h2>
         <hr className="w-2/3 mx-auto border-2 border-red-700" />
         <p className="mt-3">{info}</p>
-        <div className="transition cursor-pointer duration-300 ease-in transform hover:bg-gray-200 hover:border-transparent w-40 flex-shrink mx-auto mt-5 bg-white border-2 rounded-md">
+        <div className="flex-shrink w-40 mx-auto mt-5 transition duration-300 ease-in transform bg-white border-2 rounded-md cursor-pointer hover:bg-gray-200 hover:border-transparent">
           <Link href={`/classes/${slug}`}>
             <p className="p-4">Learn more...</p>
           </Link>

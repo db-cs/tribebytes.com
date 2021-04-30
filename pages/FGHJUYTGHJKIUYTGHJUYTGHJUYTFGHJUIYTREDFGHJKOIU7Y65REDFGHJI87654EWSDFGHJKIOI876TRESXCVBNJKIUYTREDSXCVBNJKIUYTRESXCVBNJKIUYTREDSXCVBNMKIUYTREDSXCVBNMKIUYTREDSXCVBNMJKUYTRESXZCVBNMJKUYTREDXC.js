@@ -8,10 +8,10 @@ export default function FGHJUYTGHJKIUYTGHJUYTGHJUYTFGHJUIYTREDFGHJKOIU7Y65REDFGH
           <img className="w-screen" src="mcbailey, nathan.png" rel="Yes" />
         </div>
       </div>
-      <div className="animate-ping absolute">
+      <div className="absolute animate-ping">
         <img className="w-screen" src="Logina.JPG" rel="Yes2" />
       </div>
-      <h1 className="absolute m-20 text-center animate-ping text-6xl rotate-6">
+      <h1 className="absolute m-20 text-6xl text-center animate-ping rotate-6">
         R̶̤͙̭͚̙̯͖͈̜̯͂̐̓̈́̎͘E̶̢̝͎͇̠̫̖͇̘͆̈́͆͊͘T̸̙̻̪͋U̵̡͈̫͇̤͂̊̓Ŗ̸̖͉̥͈̲͍̮̒̈̈N̸̺͍̽̓̇ ̸̘̗̘̭̝̂̀͋̐̀̆͊̏ͅT̷͔̪͖̥̎̇̓̚̚͝O̴̦̓̿̌ ̶̭͇͖̦̩̫̦̹͝P̸̡̟̟̤̮̻͂̋͂Ȑ̸̢̤͎͖̇͊E̸̡̲͕̳̻̖͕͈̾͐̇V̷̢̦̳͔̙̤͚̞̉́͒͛I̷͔̯̪̦̣̞̋͜Ǒ̵̪͕̗̼̘̓́̏͌͌͛́͠U̵̪̪̠̇̀Ś̷̢̧̫̗͇͓̣̩̀͝ ̴̨̨͉͓̫̲̳͇̭̇̐͆́̔̿ͅP̵̨͉̯̲̦̾̄́̇̍̏̈͆̈̂Ą̶̨̳͎͔̣̹̔Ģ̷̮̰̃͊̊̿͘E̶̙͋̿́̿͒̈̈́͘̕
       </h1>
       <h1 className="absolute m-64 text-6xl text-center -rotate-45 animate-ping">

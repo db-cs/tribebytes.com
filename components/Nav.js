@@ -5,7 +5,7 @@ const navList = [
   { url: "/about", title: "About" },
   // { url: "/more", title: "More" },
   { url: "/graduates", title: "Graduates" },
-  { url: "/classes", title: "Classses" },
+  { url: "/classes", title: "Classes" },
 ];
 
 const NavButton = ({ link }) => (

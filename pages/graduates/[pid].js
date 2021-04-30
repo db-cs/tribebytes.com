@@ -45,6 +45,7 @@ const Course = () => {
                   </div>
                 </div>
                 <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+
                   <h1 className="text-3xl underline italic mb-5">
                     {currentProfile.header1}
                   </h1>
